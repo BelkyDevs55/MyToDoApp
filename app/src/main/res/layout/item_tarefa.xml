@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        
+        
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/item_titulo"
+                android:text="@string/item_titulo"
+                android:textColor="@color/azul"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--Atualizar tarefa-->
+            <ImageView
+                android:id="@+id/ivAtualizar"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_edittar"
+                android:layout_marginEnd="50dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"/>
+
+            <!--Eliminar tarefa-->
+            <ImageView
+                android:id="@+id/ivEliminar"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_eliminar"
+                android:layout_width="25dp"
+                android:layout_height="25dp"/>
+
+
+        </RelativeLayout>
+        
+        <TextView
+            android:id="@+id/item_descricao"
+            android:text="@string/item_descricao"
+            android:maxLines="3"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My TO DO App</string>
+    <string name="tktAdicionarTarefa">Adicionar tarefa</string>
+    <string name="etTitulo">Título da tarefa</string>
+    <string name="edDescricao">Descrição da tarefa</string>
+    <string name="txtTarefas">Tarefas</string>
+    <string name="item_titulo">Titulo</string>
+    <string name="item_descricao">Descricao</string>
+
+    <string name="tktAtualizarTarefa">Atualizar Tarefa</string>
+
+</resources>
