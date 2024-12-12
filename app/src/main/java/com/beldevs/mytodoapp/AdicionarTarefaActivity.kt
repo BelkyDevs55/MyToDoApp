@@ -25,7 +25,7 @@ class AdicionarTarefaActivity : AppCompatActivity() {
 
         db = TarefasDatabaseHelper(this)
 
-        binding.ivSalvarNota.setOnClickListener {
+        binding.ivSalvarTarefa.setOnClickListener {
             val titulo = binding.etTitulo.text.toString()
             val descricao = binding.edDescricao.text.toString()
 
